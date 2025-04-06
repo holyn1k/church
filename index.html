@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Церковь "Преображение"</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Церковь "Преображение"</h1>
+        <p>г. Зеленодольск, ул. Грибоедова 2а</p>
+
+        <button id="theme-toggle">Сменить тему</button>
+
+        <h2>Расписание</h2>
+        <ul>
+            <li>Утренняя молитва: каждый день 06:00–07:00</li>
+            <li>Молодёжка: среда</li>
+            <li>Служение: воскресенье 09:00</li>
+        </ul>
+
+        <h2>Стих дня</h2>
+        <div id="verse-container">
+            <p id="daily-verse">Нажмите "Прочитать", чтобы увидеть стих дня.</p>
+            <button id="read-verse">Прочитать</button>
+        </div>
+
+        <div id="install-prompt" style="display: none;">
+            <p>Установите приложение на главный экран для удобного доступа!</p>
+            <button id="install-btn">Установить</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
